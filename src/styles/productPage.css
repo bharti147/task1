@@ -25,5 +25,77 @@
     /* border: 1px solid yellow; */
   }
   
+
+  
+@media (max-width: 360px) { 
+  /* styles for smaller phones */
+  
+}
+
+@media (max-width: 576px) { 
+  /* styles for extra small devices */
+  .product-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    overflow-y: auto; /* Makes this area specifically scrollable */
+    
+  
+    /* border: 1px solid yellow; */
+  }
+}
+@media (min-width: 577px) and (max-width: 767px) { 
+  /* styles for small devices */
+  .product-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    overflow-y: auto; /* Makes this area specifically scrollable */
+    
+  
+    /* border: 1px solid yellow; */
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+  /* styles for medium devices */
+  .product-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    overflow-y: auto; /* Makes this area specifically scrollable */
+    
+  
+    /* border: 1px solid yellow; */
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) { 
+  /* styles for large devices */
+  .product-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    overflow-y: auto; /* Makes this area specifically scrollable */
+    
+  
+    /* border: 1px solid yellow; */
+  }
+}
+@media (min-width: 1200px) { 
+  /* styles for extra large devices */
+  .product-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    overflow-y: auto; /* Makes this area specifically scrollable */
+    
+  
+    /* border: 1px solid yellow; */
+  }
+}
+@media (min-width: 1600px) { 
+  /* styles for ultra-wide screens */
+  
+}
+
+
+
+
+
+
   
   

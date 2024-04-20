@@ -36,9 +36,145 @@
 
 }
 
-/* Media query for smaller devices */
-@media (max-width: 768px) {
-    .sidebar {
-        width: 20%; /* Larger percentage for smaller screens */
+@media (max-width: 360px) { 
+    /* styles for smaller phones */
+    .sidebar{
+        
+       display: none;
+    }
+   
+  }
+  
+@media (max-width: 576px) { 
+    /* styles for extra small devices */
+    .sidebar{
+        
+        width: 10%;
+    }
+    .main-icon {
+       margin: 0 auto;
+       padding: 1rem 0;
+
+    }
+    .main-icon img{
+        width: auto;
+        height: 100%;
+        margin-bottom: 0;
+     
     }
 }
+@media (min-width: 577px) and (max-width: 767px) { 
+    /* styles for small devices */
+    .sidebar{
+        
+        width: 10%;
+    }
+    .main-icon {
+       margin: 0 auto;
+       padding: 1rem 0;
+
+    }
+    .main-icon img{
+        width: auto;
+        height: 100%;
+        margin-bottom: 0;
+     
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+    /* styles for medium devices */
+    .sidebar{
+        
+        width: 10%;
+    }
+    .main-icon {
+       margin: 0 auto;
+       padding: 1rem 0;
+
+    }
+    .main-icon img{
+        width: auto;
+        height: 100%;
+        margin-bottom: 0;
+     
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) { 
+    /* styles for large devices */
+    .sidebar{
+        
+        width: 7%;
+    }
+    .main-icon {
+       margin: 0 auto;
+       padding: 1rem 0;
+
+    }
+    .main-icon img{
+        width: auto;
+        height: 100%;
+        margin-bottom: 0;
+     
+    }
+    .icon-list img{
+        width: auto;
+        height: 50%;
+        margin: 1.25rem auto;
+      
+     
+     }
+  }
+  @media (min-width: 1200px) { 
+    /* styles for extra large devices */
+    .sidebar{
+        
+        width: 5%;
+    }
+    .main-icon {
+       margin: 0 auto;
+       padding: 1rem 0;
+
+    }
+    .main-icon img{
+        width: auto;
+        height: 100%;
+        margin-bottom: 0;
+     
+    }
+    .icon-list img{
+        width: auto;
+        height: 100%;
+        margin: 1.25rem auto;
+      
+     
+     }
+  }
+  @media (min-width: 1600px) { 
+    /* styles for ultra-wide screens */
+    .sidebar{
+        
+        width: 5%;
+    }
+    .main-icon {
+       margin: 0 auto;
+       padding: 1rem 0;
+
+    }
+    .main-icon img{
+        width: auto;
+        height: 100%;
+        margin-bottom: 0;
+     
+    }
+    .icon-list img{
+        width: auto;
+        height: 100%;
+        margin: 1.25rem auto;
+      
+     
+     }
+  }
+  
+  
+  
+  

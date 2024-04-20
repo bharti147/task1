@@ -49,14 +49,273 @@
   }
   /* bar2-media-queries.css */
 
-@media (max-width: 768px) {
-  .bar2 {
-    height: 15%;
+  @media (max-width: 360px) { 
+    /* styles for smaller phones */
+    
   }
-}
-
-@media (max-width: 480px) {
-  .bar2 {
+  
+  @media (max-width: 576px) { 
+    /* styles for extra small devices */
+    .bar2 {
+      display: flex;
+       padding: 0 .25rem;
+        width: 100%;
+        margin-top: 0rem;
+       height: 4%;
+         /* border: 1px solid blue; */
+       }
+       .bar2-part1{
+        display: flex;
+       
+        width: 60%;
+        /* border:1px solid red; */
+       
+       
+      }
+    
+  .homeBar{
+    
+    padding: 0rem;
+    width: 100%;
+    /* border: 1px solid orange; */
+    margin: auto 0;
+  }
+  .homeBar img{
+    width: auto;
     height: 20%;
   }
-}
+  .bar2-part1 .homeBar p{
+    font-size: 9px;
+    margin: auto 0;
+  }
+  .bar2-part1 .homeBar select{
+    font-size: 9px;
+    padding: 0rem;
+  }
+  .bar2-part2{
+    width: 25%;
+    margin: auto 0;
+   
+   }
+  .bar2-part2 button{
+    width: 100%;
+   padding: 0.15rem;
+   
+   
+  }
+  }
+  @media (min-width: 577px) and (max-width: 767px) { 
+    /* styles for small devices */
+    .bar2 {
+      display: flex;
+       padding: 0 .25rem;
+        width: 100%;
+        margin-top: 0rem;
+       height: 4%;
+         /* border: 1px solid blue; */
+       }
+       .bar2-part1{
+        display: flex;
+       
+        width: 50%;
+        /* border:1px solid red; */
+       
+       
+      }
+    
+  .homeBar{
+    
+    padding: 0rem;
+    width: 100%;
+    /* border: 1px solid orange; */
+    margin: auto 0;
+  }
+  .homeBar img{
+    width: auto;
+    height: 20%;
+  }
+  .bar2-part1 .homeBar p{
+    font-size: 9px;
+    margin: auto 0;
+  }
+  .bar2-part1 .homeBar select{
+    font-size: 9px;
+    padding: 0rem;
+  }
+  .bar2-part2{
+    width: 25%;
+    margin: auto 0;
+   
+   }
+  .bar2-part2 button{
+    width: 100%;
+   padding: 0.15rem;
+   
+   
+  }
+  }
+  @media (min-width: 768px) and (max-width: 991px) { 
+    /* styles for medium devices */
+    .bar2 {
+      display: flex;
+       padding: 0 .25rem;
+        width: 100%;
+        margin-top: 0rem;
+       height: 4%;
+         /* border: 1px solid blue; */
+       }
+       .bar2-part1{
+        display: flex;
+       
+        width: 40%;
+        /* border:1px solid red; */
+       
+       
+      }
+    
+  .homeBar{
+    
+    padding: 0rem;
+    width: 100%;
+    /* border: 1px solid orange; */
+    margin: auto 0;
+  }
+  .homeBar img{
+    width: auto;
+    height: 20%;
+  }
+  .bar2-part1 .homeBar p{
+    font-size: 9px;
+    margin: auto 0;
+  }
+  .bar2-part1 .homeBar select{
+    font-size: 9px;
+    padding: 0rem;
+  }
+  .bar2-part2{
+    width: 25%;
+    margin: auto 0;
+   
+   }
+  .bar2-part2 button{
+    width: 100%;
+   padding: 0.15rem;
+   
+   
+  }
+   
+  }
+  @media (min-width: 992px) and (max-width: 1199px) { 
+    /* styles for large devices */
+    
+    .bar2 {
+      display: flex;
+       padding: 0 .25rem;
+        width: 100%;
+        margin-top: 0rem;
+       height: 4%;
+       padding-bottom: .50rem;
+         /* border: 1px solid blue; */
+       }
+       .bar2-part1{
+        display: flex;
+       
+        width: 40%;
+        /* border:1px solid red; */
+       
+       
+      }
+    
+  .homeBar{
+    
+    padding: 0rem;
+    width: 100%;
+    /* border: 1px solid orange; */
+    margin: auto 0;
+  }
+  .homeBar img{
+    width: auto;
+    height: 50%;
+  }
+  .bar2-part1 .homeBar p{
+    font-size: 10px;
+    margin: auto 0;
+  }
+  .bar2-part1 .homeBar select{
+    font-size: 10px;
+    padding: 0rem;
+  }
+  .bar2-part2{
+    width: 25%;
+    margin: auto 0;
+   
+   }
+  .bar2-part2 button{
+    width: 100%;
+   padding: 0.15rem;
+   
+   
+  }
+  }
+  @media (min-width: 1200px) { 
+    /* styles for extra large devices */
+    
+    .bar2 {
+      display: flex;
+       padding: 0 .25rem;
+        width: 100%;
+        margin-top: 0rem;
+       height: 4%;
+       padding-bottom: .50rem;
+         /* border: 1px solid blue; */
+       }
+       .bar2-part1{
+        display: flex;
+       
+        width: 40%;
+        /* border:1px solid red; */
+       
+       
+      }
+    
+  .homeBar{
+    
+    padding: 0rem;
+    width: 80%;
+    /* border: 1px solid orange; */
+    margin: auto 0;
+  }
+  .homeBar img{
+    width: auto;
+    height: 50%;
+  }
+  .bar2-part1 .homeBar p{
+    font-size: 12px;
+    margin: auto 0;
+  }
+  .bar2-part1 .homeBar select{
+    font-size: 10px;
+    padding: 0rem;
+  }
+  .bar2-part2{
+    width: 20%;
+    margin: auto 0;
+   
+   }
+  .bar2-part2 button{
+    width: 100%;
+   padding: 0.15rem;
+   
+   
+  }
+  }
+  @media (min-width: 1600px) { 
+    /* styles for ultra-wide screens */
+    
+  }
+  
+  
+  
+  
+  
+  

@@ -15,6 +15,7 @@
     background-color:#EDEEF1;
     padding: .5rem;
     margin-bottom: 1rem;
+
     
    }
    
@@ -102,64 +103,80 @@
    }
 
    
-   
- /* bar4-media-queries.css */
+  
+@media (max-width: 360px) { 
+  /* styles for smaller phones */
+  
+}
 
-@media (max-width: 1024px) {
+@media (max-width: 576px) { 
+  /* styles for extra small devices */
+  .bar4{
+    display: none;
+  }
+}
+@media (min-width: 577px) and (max-width: 767px) { 
+  /* styles for small devices */
+  .bar4{
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+  /* styles for medium devices */
+  .bar4{
+    display: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) { 
+  /* styles for large devices */
   .bar4 {
-    width: 35%; /* Increase width for better readability on smaller devices */
-    padding: 0.5rem; /* Adjust padding for more space efficiency */
-  }
-  .bar4-box img {
-    width: 20px; /* Adjust image size to match new scale */
-  }
-  .bar4 section h1, .bar4 section h2 {
-    font-size: 10px; /* Slightly reduce font size */
-  }
+    width: 25%;
+   }
+   .bar4-box{
+    width: 100%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    
+   }
+   .summaryBox{
+    display: flex;
+    
+
+    margin: .25rem;
+    flex-direction: column;
+   }
+   .summaryBox  .main h4{
+word-wrap: break-word;
+font-size: 7px;
+   }
+   .total{
+    padding: .5rem .15rem;
+    font-size: 9px;
+    width: 100%;
+   }
+   .total span{
+    padding-top: 0rem;
+    font-weight: 700;
+   }
+   .discountBox span, p{
+   margin:auto 0;
+
+   }
+  
+}
+@media (min-width: 1200px) { 
+  /* styles for extra large devices */
+  .total span{
+    padding-top: 0rem;
+    font-weight: 700;
+   }
+}
+@media (min-width: 1600px) { 
+  /* styles for ultra-wide screens */
+  
 }
 
-/* Adjustments for mobile devices */
-@media (max-width: 768px) {
-  .bar4 {
-    width: 100%; /* Full width on very small screens */
-    padding-bottom: 5rem; /* Less padding at the bottom */
-  }
-  .bar4-box {
-    flex-direction: column; /* Stack elements vertically to manage space */
-    align-items: center; /* Center elements when stacked */
-  }
-  .bar4-box img {
-    width: 30px; /* Larger icons for easier interaction */
-    height: auto; /* Maintain aspect ratio */
-  }
-  .bar4 section {
-    padding-left: 0; /* Align text better under image */
-    align-items: center; /* Center text */
-  }
-  .bar4 button {
-    font-size: 14px; /* Larger font size for readability */
-  }
-  .summaryBox {
-    padding: 0.5rem; /* Adjust padding inside summaries */
-  }
-  .summaryBox .summary-boxes, .total {
-    font-size: 12px; /* Smaller font size to fit more content */
-  }
-}
 
-/* Further adjustments for smaller mobile devices */
-@media (max-width: 480px) {
-  .bar4-box img {
-    width: 25px; /* Adjust image size for very small screens */
-  }
-  .bar4 section h1, .bar4 section h2 {
-    font-size: 9px; /* Even smaller font sizes for very small devices */
-  }
-  .total, .summaryBox .summary-boxes {
-    flex-direction: column; /* Stack details to avoid horizontal squeeze */
-    align-items: center; /* Center content */
-  }
-  .total span, .summaryBox .summary-boxes span {
-    align-self: center; /* Ensure numbers are centered under their labels */
-  }
-}
+
+
+

@@ -133,14 +133,162 @@ justify-content: space-around;
    
   /* bar3-media-queries.css */
 
-@media (max-width: 768px) {
-  .bar3 {
-    height: 15%;
+  @media (max-width: 360px) { 
+    /* styles for smaller phones */
+    
+  }
+  
+  @media (max-width: 576px) { 
+    /* styles for extra small devices */
+    .bar3{
+      display: none;
+    }
+  }
+  @media (min-width: 577px) and (max-width: 767px) { 
+    /* styles for small devices */
+    .bar3 {
+  
+   
+     display: none;
   }
 }
+  @media (min-width: 768px) and (max-width: 991px) { 
+    /* styles for medium devices */
+    .bar3 {
+  
+   
+      display: none;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) { 
+    /* styles for large devices */
+    .bar3 {
+      width: 100%;
+       height: 5%;
+     }
+     .bar3-part1{
+      width: 100%;
+  height: 100%;
+     }
+     .searchBar{
+      width: 50%;
+    }
+    
+   
+    .others{
+      width: 50%;
+    }
+    .bar3-part2{
+      display: none;
+    }
+  }
+  @media (min-width: 1200px) { 
+    /* styles for extra large devices */
+    .bar3 {
+      width: 100%;
+       height: 7%;
+     }
+     .bar3-part1{
+      width: 70%;
+  height: 100%;
+     }
+     .searchBar{
+      width: 40%;
+      height: 100%;
 
-@media (max-width: 480px) {
-  .bar3 {
-    height: 20%;
+      
+    }
+    .search{
+      width: 60%;
+      height: 40%;
+      padding:0rem;
+      margin: auto 0;
+      
+    }
+    .searchBar p{
+      font-size: 12px;
+    }
+    .searchBar img{
+      width: auto;
+      height: 40%;
+      margin: auto .25rem;
+    }
+    
+   
+    .others{
+      width: 50%;
+    }
+    .others input{
+      width:40% ;
+      
+      
+      margin: auto 0 ;
+     height: 100%;
+      padding: .35rem .80rem;
+      text-align: center;
+     }
+    .others div{
+      width:50% ;
+      display: flex;
+      font-size: 12px;
+      padding: .25rem .50rem;
+      margin: auto .25rem ;
+      border: 1px solid grey;
+     }
+     .bar3-part2{
+      width: 40%;
+  height: 100%;
+  margin-left: 1rem;
+   
+     }
+     .bar3-part2 .scanBar{
+      width: 50%;
+      height: 50%;
+      
+      margin: auto 1rem ;
+      /* border: 1px solid yellow; */
+      padding: .35rem .50rem;
+     }
+     .bar3-part2 .scanBar img{
+      width: auto;
+      height: 100%;
+     }
+     .bar3-part2 p{
+      font-size: 10px;
+     }
+     .bar3-part2 .designBar{
+      display: flex;
+      width: 50%;
+      /* border: 1px solid yellow; */
+  justify-content: space-around;
+      /* padding: .5rem .25rem; */
+      display: flex;
+      margin: auto 0 ;
+     height: 50%;
+      padding: auto .50rem;
+      align-items: center;
+  
+     }
+     .bar3-part2 .designBar select{
+      width: 60%;
+      background-color: #D9D9D980;
+        font-weight: 700;
+        margin-right: .5rem;
+        padding: 0 .5rem;
+     }
+     .bar3-part2 .designBar img{
+      width: auto;
+      height: 80%;
+      margin: auto 0;
+     }
   }
-}
+  @media (min-width: 1600px) { 
+    /* styles for ultra-wide screens */
+    
+  }
+  
+  
+  
+  
+  
+  

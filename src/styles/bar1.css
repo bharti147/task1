@@ -76,52 +76,259 @@
   
  /* bar1-media-queries.css */
 
-@media (max-width: 768px) {
-  .bar1 {
-    height: 15%;
-  }
+ 
+@media (max-width: 360px) { 
+  /* styles for smaller phones */
+  
+}
 
-  .searchBar,
-  .keys {
-    font-size: 10px; /* Adjust font size */
+@media (max-width: 576px) { 
+  /* styles for extra small devices */
+  .bar1{
+    height: 5%;
+  
   }
-
-  .searchBar img,
-  .keys img {
-    height: 80%; /* Adjust image height */
-  }
-
-  .profile h4,
-  .profile h5 {
-    font-size: 12px; /* Adjust font size */
-  }
-
-   .profile {
+  .bar1-part1{
     display: none;
   }
+  .bar1-part2{
+    
+    width: 100%;
+    margin: auto 0;
+   
+    
+  }
+  .bar1-part2 img{
+    width: auto;
+    height: 40%;
+    
+  }
+  .bar1-part2 .profile {
+    
+    height: 50%;
+    padding: auto 0;
+    
+    
+  }
+  .bar1-part2 .profile h4{
+    font-size: 9px;
+  }
+  .bar1-part2 .profile h5{
+    font-size: 7px;
+  }
+  .bar1-part2 .profile .arrow img{
+    padding-top: .15rem;
+  }
+}
+@media (min-width: 577px) and (max-width: 767px) { 
+  /* styles for small devices */
+  .bar1{
+    height: 5%;
+  
+  }
+  .bar1-part1{
+    display: none;
+  }
+  .bar1-part2{
+    
+    width: 100%;
+    margin: auto 0;
+   
+    
+  }
+  .bar1-part2 img{
+    width: auto;
+    height: 40%;
+    
+  }
+  .bar1-part2 .profile {
+    
+    height: 50%;
+    padding: auto 0;
+    
+    
+  }
+  .bar1-part2 .profile h4{
+    font-size: 9px;
+  }
+  .bar1-part2 .profile h5{
+    font-size: 7px;
+  }
+  .bar1-part2 .profile .arrow img{
+    padding-top: .15rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+  /* styles for medium devices */
+  .bar1{
+    height: 5%;
+  
+  }
+  .bar1-part1{
+    display: none;
+  }
+  .bar1-part2{
+    
+    width: 100%;
+    margin: auto 0;
+   margin-left: 10rem;
+    
+  }
+  .bar1-part2 img{
+    width: auto;
+    height: 100%;
+    
+  }
+  .bar1-part2 .profile {
+    
+    height: 50%;
+    padding: auto 0;
+    
+    
+  }
+  .bar1-part2 .profile h4{
+    font-size: 12px;
+  }
+  .bar1-part2 .profile h5{
+    font-size: 10px;
+  }
+  .bar1-part2 .profile .arrow img{
+    padding-top: .15rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) { 
+  /* styles for large devices */
+  .bar1{
+    height: 7%;
+  
+  }
+  .bar1-part1{
+    width: 50%;
+    
+  }
+  .searchBar{
+    width: 30%;
+    padding: .20rem;
+    font-size: 9px;  
+  }
+  .searchBar img{
+    width: auto;
+    height: 50%;
+  }
+  .keys{
+   
+    padding: 0.25rem 0;
+   
+    border: 1x solid red;
+  }
+  .keys img{
+    width: auto;
+    height: 70%;
+    margin: auto 0;
+ 
+    
+  }
+  .bar1-part2{
+    
+    width: 50%;
+    margin: auto 0;
+   
+    justify-content: space-evenly;
+  }
+  .bar1-part2 img{
+    width: auto;
+    height: 50%;
+    
+  }
+  .bar1-part2 .profile {
+    
+    height: 50%;
+    padding: auto 0;
+    /* border: 1px solid red; */
+    
+    
+  }
+  .bar1-part2 .profile h4{
+    font-size: 12px;
+  }
+  .bar1-part2 .profile h5{
+    font-size: 10px;
+  }
+  .bar1-part2 .profile .arrow img{
+    padding-top: .15rem;
+  }
+}
+@media (min-width: 1200px) { 
+  /* styles for extra large devices */
+  .bar1{
+    height: 7%;
+  
+  }
+  .bar1-part1{
+    width: 50%;
+    
+  }
+  .searchBar{
+    width: 30%;
+    padding: .20rem;
+    font-size: 9px;  
+  }
+  .searchBar p{
+    margin: auto 0;
+  }
+  .searchBar img{
+    width: auto;
+    height: 50%;
+  }
+  .keys{
+   
+    padding: 0.25rem 0;
+   
+    border: 1x solid red;
+  }
+  .keys img{
+    width: auto;
+    height: 70%;
+    margin: auto 0;
+ 
+    
+  }
+  .bar1-part2{
+    
+    width: 50%;
+    margin: auto 0;
+   
+    justify-content: space-evenly;
+  }
+  .bar1-part2 img{
+    width: auto;
+    height: 50%;
+    
+  }
+  .bar1-part2 .profile {
+    
+    height: 50%;
+    padding: auto 0;
+    /* border: 1px solid red; */
+    
+    
+  }
+  .bar1-part2 .profile h4{
+    font-size: 12px;
+  }
+  .bar1-part2 .profile h5{
+    font-size: 10px;
+  }
+  .bar1-part2 .profile .arrow img{
+    padding-top: .15rem;
+  }
+}
+@media (min-width: 1600px) { 
+  /* styles for ultra-wide screens */
+  
 }
 
-@media (max-width: 480px) {
-  .bar1 {
-    height: 20%;
-  }
 
-  .searchBar,
-  .keys {
-    font-size: 8px; /* Adjust font size */
-  }
 
-  .searchBar img,
-  .keys img {
-    height: 60%; /* Adjust image height */
-  }
 
-  .profile h4,
-  .profile h5 {
-    font-size: 10px; /* Adjust font size */
-  }
 
-  .bar1-part2 .profile .arrow img {
-    padding-top: 0.25rem; /* Adjust padding */
-  }
-}
