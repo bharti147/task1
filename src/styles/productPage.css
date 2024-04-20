@@ -29,7 +29,14 @@
   
 @media (max-width: 360px) { 
   /* styles for smaller phones */
+  .product-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    overflow-y: auto; /* Makes this area specifically scrollable */
+    
   
+    /* border: 1px solid yellow; */
+  }
 }
 
 @media (max-width: 576px) { 

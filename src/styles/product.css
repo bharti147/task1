@@ -92,16 +92,30 @@ width: 100%;
 }
 
  
-@media (max-width: 360px) { 
+@media (min-width: 360px) and (max-width:575px) { 
     /* styles for smaller phones */
-    
+    .product{
+        width: 36%;
+        height: 42%;
+        font-size: 10px;
+       margin-bottom: .25rem;
+    }
+    .part2 h3{
+        font-size: 12px;
+    }
+    .part5 button img{
+        width: auto;
+        height: 50%;
+        margin: auto 0;
+        
+    }
   }
   
   @media (max-width: 576px) { 
     /* styles for extra small devices */
     .product{
-        width: 30%;
-        height: 50%;
+        width: 36%;
+        height: 32%;
         font-size: 10px;
        margin-bottom: 1rem;
     }
@@ -110,8 +124,8 @@ width: 100%;
     }
     .part5 button img{
         width: auto;
-        height: 60%;
-        
+        height: 50%;
+        margin: auto 0;
     }
   }
   @media (min-width: 577px) and (max-width: 767px) { 

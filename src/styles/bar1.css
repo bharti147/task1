@@ -77,9 +77,81 @@
  /* bar1-media-queries.css */
 
  
-@media (max-width: 360px) { 
+@media (min-width: 360px) and (max-width:575) { 
   /* styles for smaller phones */
+  .bar1{
+    height: 5%;
   
+  }
+  .bar1-part1{
+    display: none;
+  }
+  .bar1-part2{
+    
+    width: 100%;
+    margin: auto 0;
+   
+    
+  }
+  .bar1-part2 img{
+    width: auto;
+    height: 10%;
+    
+  }
+  .bar1-part2 .profile {
+    
+    height: 50%;
+    padding: auto 0;
+    
+    
+  }
+  .bar1-part2 .profile h4{
+    font-size: 9px;
+  }
+  .bar1-part2 .profile h5{
+    font-size: 7px;
+  }
+  .bar1-part2 .profile .arrow img{
+    padding-top: .15rem;
+  }
+}
+@media (min-width: 577px) and (max-width: 767px) { 
+  /* styles for small devices */
+  .bar1{
+    height: 5%;
+  
+  }
+  .bar1-part1{
+    display: none;
+  }
+  .bar1-part2{
+    
+    width: 100%;
+    margin: auto 0;
+   
+    
+  }
+  .bar1-part2 img{
+    width: auto;
+    height: 40%;
+    
+  }
+  .bar1-part2 .profile {
+    
+    height: 50%;
+    padding: auto 0;
+    
+    
+  }
+  .bar1-part2 .profile h4{
+    font-size: 9px;
+  }
+  .bar1-part2 .profile h5{
+    font-size: 7px;
+  }
+  .bar1-part2 .profile .arrow img{
+    padding-top: .15rem;
+  }
 }
 
 @media (max-width: 576px) { 
