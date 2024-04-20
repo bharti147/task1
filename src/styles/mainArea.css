@@ -1,0 +1,16 @@
+.mainArea {
+    width: 100%;  /* Calculate remaining width */
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    
+  
+    /* border: 1px solid rgb(51, 255, 0); */
+}
+
+@media (max-width: 768px) {
+    .mainArea {
+        margin-left: 20%;  /* Match sidebar adjustment */
+        width: calc(100% - 20%);  /* Adjust width accordingly */
+    }
+}

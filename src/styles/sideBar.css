@@ -1,0 +1,44 @@
+.sidebar {
+    width: 5%; /* Initial width */
+    flex-shrink: 0;
+    background-color: #FCFAFF;
+    /* border: 1px solid blue; */
+    /* height: 100vh; */
+}
+.main-icon {
+    text-align: center;
+    padding: 1rem;
+    width: auto;
+}
+.main-icon img{
+    width: auto;
+    height: 100%;
+    margin-bottom: 3rem;
+ 
+}
+.icon-list {
+    flex-grow: 1;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    
+    /* justify-content: space-evenly;  */
+
+}
+
+
+ .icon-list img{
+   width: auto;
+   height: 80%;
+   margin: 1.25rem auto;
+ 
+
+}
+
+/* Media query for smaller devices */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 20%; /* Larger percentage for smaller screens */
+    }
+}

@@ -1,0 +1,146 @@
+.bar3 {
+  
+   
+    width: 100%;
+     /* position: sticky; */
+     height: 7%;
+     display: flex;
+     justify-content: space-between;
+  
+     background-color: #F3F4F9;
+     /* border: 1px solid blue; */
+   }
+   .bar3-part1{
+    width: 70%;
+height: 100%;
+background-color: white;
+    /* padding: 1rem; */
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid rgb(194, 50, 161); */
+   }
+   .searchBar{
+    /* border: 1px solid rgb(194, 50, 161); */
+display: flex;
+font-size: 15px;
+    width: 60%;
+   
+    font-weight: 400;
+    color: #67768E;
+    
+  }
+  .search{
+    width: 100%;
+    height: 70%;
+    border: 1px solid grey;
+    margin: auto 0 ;
+    display: flex;
+    padding: auto .50rem;
+    align-items: center;
+    
+  }
+  .searchBar img{
+    width: auto;
+    height: 80%;
+    margin: auto 1rem ;
+  }
+ 
+   .others{
+    width: 40%;
+    display: flex;
+    margin: auto 0 ;
+   height: 50%;
+    padding: auto .50rem;
+    align-items: center;
+    justify-content: space-around;
+   }
+   .others input{
+    width:40% ;
+    
+    
+    margin: auto 0 ;
+   height: 100%;
+    padding: auto .80rem;
+    text-align: center;
+   }
+   .others div{
+    width:40% ;
+    display: flex;
+    font-size: 13px;
+    padding: .35rem .50rem;
+    margin: .75rem .25rem ;
+    border: 1px solid grey;
+   }
+   .others .btn{
+    width:10% ;
+    background-color: white;
+    font-size: 15px;
+    padding: .15rem .50rem;
+    margin: .75rem .25rem ;
+    border: 1px solid grey;
+   }
+   .bar3-part2{
+    width: 40%;
+    background-color: white;
+height: 100%;
+margin-left: 1rem;
+    /* padding: 1rem; */
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid rgb(194, 50, 161); */
+   }
+   .bar3-part2 .scanBar{
+    width: 50%;
+    margin: auto 0 ;
+    display: flex;
+    height: 50%;
+    padding: auto .50rem;
+    align-items: center;
+ 
+    margin: auto 1rem ;
+    /* border: 1px solid yellow; */
+    padding: .35rem .50rem;
+   }
+   .bar3-part2 .scanBar img{
+    width: auto;
+    height: 100%;
+   }
+   .bar3-part2 .designBar{
+    display: flex;
+    width: 50%;
+    /* border: 1px solid yellow; */
+justify-content: space-around;
+    /* padding: .5rem .25rem; */
+    display: flex;
+    margin: auto 0 ;
+   height: 50%;
+    padding: auto .50rem;
+    align-items: center;
+
+   }
+   .bar3-part2 .designBar select{
+    width: 60%;
+    background-color: #D9D9D980;
+      font-weight: 700;
+      margin-right: .5rem;
+      padding: 0 .5rem;
+   }
+   .bar3-part2 .designBar img{
+    width: auto;
+    height: 80%;
+    margin: auto 0;
+   }
+   
+  /* bar3-media-queries.css */
+
+@media (max-width: 768px) {
+  .bar3 {
+    height: 15%;
+  }
+}
+
+@media (max-width: 480px) {
+  .bar3 {
+    height: 20%;
+  }
+}

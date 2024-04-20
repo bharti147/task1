@@ -1,0 +1,165 @@
+.bar4 {
+  
+   
+    width: 25%;
+     position: sticky;
+     height: auto;
+     padding: 1rem 1rem;
+     z-index: 1;
+     background-color: rgb(255,255,255);
+     /* border: 1px solid blue; */
+     padding-bottom: 10rem;
+   }
+   .bar4-box{
+    display: flex;
+    background-color:#EDEEF1;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    
+   }
+   
+   .bar4 button{
+   width: 100%;
+   padding: .25rem;
+   border: none;
+   background-color:#EDEEF1;
+   font-weight: 400;
+   font-size: 15px;
+   margin-bottom: .20rem;
+   }
+   .bar4-box img{
+   width: 25px;
+   height: 100%;
+   }
+   .bar4 section{
+     display: flex;
+     flex-direction: column;
+     padding-left: .5rem;
+   }
+   .bar4 section h2{
+    font-weight: 400;
+    font-size: 10px;
+   }
+   .bar4 section h1{
+    font-weight: 600;
+    font-size: 12px;
+   }
+   .summaryBox{
+    display: flex;
+    
+
+    margin: 1rem;
+    flex-direction: column;
+   }
+   .summaryBox h2{
+    font-size: 13px;
+    font-weight: 600;
+    margin: .20rem 0 .10rem 0;
+   }
+   .summaryBox .main{
+    background-color:#EDEEF1;
+ font-size: 13px;
+ margin-bottom: .5rem;
+ margin-top: .40rem;
+
+   }
+   .summaryBox .summary-boxes{
+    padding: .25rem;
+    display: flex;
+    justify-content: space-between;
+   font-size: 13px;
+   }
+   .total{
+    background-color: #F7F8FB;
+    padding: .5rem;
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    font-weight: 400;
+   }
+   .total span{
+    padding-top: .5rem;
+    font-weight: 700;
+   }
+   .discountBox{
+    color: #52924C;
+    margin-bottom: 0.25rem;
+
+   }
+   .discountBox .discount1{
+    display: flex;
+    
+    padding: .5rem;
+    justify-content: space-evenly;
+   }
+   .discountBox section img{
+    width: 40%;
+   }
+   
+   
+   .discountBox p{
+    font-weight: 500;
+   }
+
+   
+   
+ /* bar4-media-queries.css */
+
+@media (max-width: 1024px) {
+  .bar4 {
+    width: 35%; /* Increase width for better readability on smaller devices */
+    padding: 0.5rem; /* Adjust padding for more space efficiency */
+  }
+  .bar4-box img {
+    width: 20px; /* Adjust image size to match new scale */
+  }
+  .bar4 section h1, .bar4 section h2 {
+    font-size: 10px; /* Slightly reduce font size */
+  }
+}
+
+/* Adjustments for mobile devices */
+@media (max-width: 768px) {
+  .bar4 {
+    width: 100%; /* Full width on very small screens */
+    padding-bottom: 5rem; /* Less padding at the bottom */
+  }
+  .bar4-box {
+    flex-direction: column; /* Stack elements vertically to manage space */
+    align-items: center; /* Center elements when stacked */
+  }
+  .bar4-box img {
+    width: 30px; /* Larger icons for easier interaction */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .bar4 section {
+    padding-left: 0; /* Align text better under image */
+    align-items: center; /* Center text */
+  }
+  .bar4 button {
+    font-size: 14px; /* Larger font size for readability */
+  }
+  .summaryBox {
+    padding: 0.5rem; /* Adjust padding inside summaries */
+  }
+  .summaryBox .summary-boxes, .total {
+    font-size: 12px; /* Smaller font size to fit more content */
+  }
+}
+
+/* Further adjustments for smaller mobile devices */
+@media (max-width: 480px) {
+  .bar4-box img {
+    width: 25px; /* Adjust image size for very small screens */
+  }
+  .bar4 section h1, .bar4 section h2 {
+    font-size: 9px; /* Even smaller font sizes for very small devices */
+  }
+  .total, .summaryBox .summary-boxes {
+    flex-direction: column; /* Stack details to avoid horizontal squeeze */
+    align-items: center; /* Center content */
+  }
+  .total span, .summaryBox .summary-boxes span {
+    align-self: center; /* Ensure numbers are centered under their labels */
+  }
+}
